@@ -21,6 +21,8 @@ function easeOutCubic(t: number): number {
   return 1 - Math.pow(1 - t, 3);
 }
 
+
+
 export function IconCloud({ icons, images }: IconCloudProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [iconPositions, setIconPositions] = useState<Icon[]>([]);
@@ -41,6 +43,10 @@ export function IconCloud({ icons, images }: IconCloudProps) {
   const rotationRef = useRef(rotation);
   const iconCanvasesRef = useRef<HTMLCanvasElement[]>([]);
   const imagesLoadedRef = useRef<boolean[]>([]);
+
+  useEffect(() => {
+    setRotation({ x: 10, y: 20 });
+  }, []);
 
   // Create icon canvases once when icons/images change
   useEffect(() => {
