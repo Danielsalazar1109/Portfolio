@@ -77,7 +77,7 @@ const Skills = () => {
                   gradientColor= "green"
                 >
                     <motion.div
-                    initial ={{x:0}}
+                    initial ={{x:0, willChange:'transform'}}
                     animate ={{x:moveX}}
                     transition = {{duration: duration, repeat: Infinity, repeatType: "reverse", ease: "easeInOut"}}>
                   <Card className="relative shadow-lg flex items-center justify-center">
