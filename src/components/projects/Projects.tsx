@@ -4,8 +4,8 @@ import { Marquee } from "../magicui/marquee";
 
 const Projects = () => {
   const projects = [
-    { title: "HUH STORE", description: "Cloth store using React Native", link: "https://huhstore.netlify.app/", image: "/images/Alpha.png", logos: ["typescript", "react", "nodedotjs", "mongodb", "tailwindcss"] },
-    { title: "AlphaBites", description: "E-commerce using Next.js with Stripe payments", link: "https://alpha-bites.vercel.app/", image: "/images/HUH.ong", logos: ["typescript", "react", "mongodb", "clerk", "stripe", "tailwindcss"] },
+    { title: "HUH STORE", description: "Cloth store using React Native", link: "https://huhstore.netlify.app/", image: "/images/HUH.png", logos: ["typescript", "react", "nodedotjs", "mongodb", "tailwindcss"] },
+    { title: "AlphaBites", description: "E-commerce using Next.js with Stripe payments", link: "https://alpha-bites.vercel.app/", image: "/images/Alpha.png", logos: ["typescript", "react", "mongodb", "clerk", "stripe", "tailwindcss"] },
   ];
 
   return (
