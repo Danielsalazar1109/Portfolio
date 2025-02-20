@@ -9,7 +9,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-16">
+    <section id="projects" className="py-24">
       <div className="max-w-7xl mx-auto md:px-4 sm:px-6 lg:px-8 text-center">
         <motion.h2
           className="text-xl font-extrabold text-white sm:text-4xl mb-8 mx-4"
@@ -36,7 +36,7 @@ const Projects = () => {
               <motion.div
               ref={ref}
               key={index}
-              className=" px-16 hover:shadow-xl transition duration-300 ease-in-out flex w-full flex-col gap-4 lg:h-[350px] lg:flex-row relative"
+              className=" md:px-16 hover:shadow-xl transition duration-300 ease-in-out flex w-full flex-col gap-4 lg:h-[350px] lg:flex-row relative"
               initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
               animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}

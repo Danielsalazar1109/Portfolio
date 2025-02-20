@@ -22,7 +22,7 @@ const Skills = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
-        setMoveX(120);
+        setMoveX(25);
         setDuration (1.5)
       } else if (window.innerWidth < 1024) {
         setMoveX(180); 

@@ -37,7 +37,7 @@ const Contact = () => {
             <CardContent>
               <form className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-gray-800 font-semibold text-4xl text-white">NAME</label>
+                  <label className="block text-gray-800 font-semibold md:text-4xl text-xl text-white">NAME</label>
                   <input
                     type="text"
                     className="w-full p-2 border border-orange-500 border-2  text-xl rounded-md focus:outline-none focus:ring-2 focus:ring-gray-600"
@@ -45,7 +45,7 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-white text-4xl font-semibold">EMAIL</label>
+                  <label className="block text-white md:text-4xl text-xl font-semibold">EMAIL</label>
                   <input
                     type="email"
                     className="w-full p-2 border border-orange-500 border-2 rounded-md text-xl focus:outline-none focus:ring-2 focus:ring-gray-600"
@@ -53,14 +53,14 @@ const Contact = () => {
                   />
                 </div>
                 <div className="col-span-1 sm:col-span-2">
-                  <label className="block text-white text-4xl font-semibold">MESSAGE</label>
+                  <label className="block text-white md:text-4xl text-xl font-semibold">MESSAGE</label>
                   <textarea
                     className="w-full p-2 border border-orange-500 border-2 text-xl rounded-md focus:outline-none focus:ring-2 focus:ring-gray-600"
                     required
                   ></textarea>
                 </div>
                 <div className="col-span-1 sm:col-span-2 flex justify-center">
-                  <RainbowButton type="submit" className="bg-black text-white text-4xl hover:bg-gray-800 px-6 py-6">
+                  <RainbowButton type="submit" className="bg-black text-white md:text-4xl text-xl hover:bg-gray-800 px-6 py-6">
                     SEND MESSAGE
                   </RainbowButton>
                 </div>
