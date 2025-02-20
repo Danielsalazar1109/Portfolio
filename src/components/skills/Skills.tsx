@@ -43,7 +43,7 @@ const Skills = () => {
     <section id="skills" className="py-24 mt-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.h2
-          className="mt-4 md:w-full md:text-lg text-md text-white sm:text-xl w-1/2 mx-auto"
+          className="mt-4 md:w-full md:text-4xl font-extrabold text-md text-white sm:text-xl w-1/2 mx-auto"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}

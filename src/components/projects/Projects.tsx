@@ -53,7 +53,7 @@ const Projects = () => {
                     </a>
                   </div>
 
-                  <Marquee className="w-96 py-16 mx-auto">
+                  <Marquee className="w-96 py-16">
                     {project.logos.map((logo, i) => (
                       <motion.img
                         key={i}
