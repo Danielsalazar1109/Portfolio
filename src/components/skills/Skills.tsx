@@ -61,7 +61,7 @@ const Skills = () => {
 
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6">
           {skills.map((skill, index) => {
-            const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
+            const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.5 });
 
             return (
               <motion.div
